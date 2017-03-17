@@ -1,0 +1,14 @@
+[
+{ "file"      : "/Users/dvanderbeek/Web/rumbrella/deps/fs/c_src/mac/cli.c"
+, "directory" : "/Users/dvanderbeek/Web/rumbrella/deps/fs"
+, "command"   : "clang -c -Wno-deprecated-declarations -g -Wall -fPIC -MMD -I\"/usr/local/Cellar/erlang/19.2/lib/erlang/lib/erl_interface-3.9.2/include\" -I\"/usr/local/Cellar/erlang/19.2/lib/erlang/erts-8.2/include\" /Users/dvanderbeek/Web/rumbrella/deps/fs/c_src/mac/cli.c -o /Users/dvanderbeek/Web/rumbrella/deps/fs/c_src/mac/cli.o"
+},
+{ "file"      : "/Users/dvanderbeek/Web/rumbrella/deps/fs/c_src/mac/compat.c"
+, "directory" : "/Users/dvanderbeek/Web/rumbrella/deps/fs"
+, "command"   : "clang -c -Wno-deprecated-declarations -g -Wall -fPIC -MMD -I\"/usr/local/Cellar/erlang/19.2/lib/erlang/lib/erl_interface-3.9.2/include\" -I\"/usr/local/Cellar/erlang/19.2/lib/erlang/erts-8.2/include\" /Users/dvanderbeek/Web/rumbrella/deps/fs/c_src/mac/compat.c -o /Users/dvanderbeek/Web/rumbrella/deps/fs/c_src/mac/compat.o"
+},
+{ "file"      : "/Users/dvanderbeek/Web/rumbrella/deps/fs/c_src/mac/main.c"
+, "directory" : "/Users/dvanderbeek/Web/rumbrella/deps/fs"
+, "command"   : "clang -c -Wno-deprecated-declarations -g -Wall -fPIC -MMD -I\"/usr/local/Cellar/erlang/19.2/lib/erlang/lib/erl_interface-3.9.2/include\" -I\"/usr/local/Cellar/erlang/19.2/lib/erlang/erts-8.2/include\" /Users/dvanderbeek/Web/rumbrella/deps/fs/c_src/mac/main.c -o /Users/dvanderbeek/Web/rumbrella/deps/fs/c_src/mac/main.o"
+}
+]
