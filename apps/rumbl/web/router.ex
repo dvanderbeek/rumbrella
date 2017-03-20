@@ -29,6 +29,13 @@ defmodule Rumbl.Router do
     resources "/videos", VideoController
   end
 
+  scope "/auth", Rumbl do
+    pipe_through :browser
+
+    get "/:provider", AuthController, :index
+    get "/:provider/callback", AuthController, :callback
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", Rumbl do
   #   pipe_through :api

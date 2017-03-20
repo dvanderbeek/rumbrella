@@ -1,5 +1,9 @@
 <div class="jumbotron">
   <h2>Welcome to Rumbl.io</h2>
   <p class="lead">Rumble out loud.</p>
+  <% unless @current_user do %>
+    <%= link to: auth_path(@conn, :index, "google"), class: "btn btn-primary" do %>
+      Sign in with Google
+    <% end %>
+  <% end %>
 </div>
-
