@@ -33,6 +33,7 @@ defmodule Rumbl.AuthController do
 
   defp get_user!("google", client) do
     %{body: user} = OAuth2.Client.get!(client, "https://www.googleapis.com/plus/v1/people/me/openIdConnect")
+    unless user["hd"] == "helloalign.com", do: raise "Invalid domain"
     %{username: user["name"], avatar: user["picture"]}
   end
 end

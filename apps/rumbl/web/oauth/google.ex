@@ -23,8 +23,8 @@ defmodule Google do
     OAuth2.Client.get_token!(
       client(),
       params ++ [
-        client_id: Application.get_env(:rumbl, :google_oauth)[:client_id],
-        client_secret: Application.get_env(:rumbl, :google_oauth)[:client_secret],
+        client_id: client().client_id,
+        client_secret: client().client_secret,
       ]
     )
   end
